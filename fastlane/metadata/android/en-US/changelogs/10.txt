@@ -1,0 +1,2 @@
+Add long-press shortcuts (Download, Documents, DCIM, Android/data) and a Quick Settings tile.
+New lightweight vector icon.

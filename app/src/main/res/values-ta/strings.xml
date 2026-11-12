@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">கோப்புகள்</string>
+    <string name="no_file_manager">கணினி கோப்பு மேலாளர் கிடைக்கவில்லை</string>
+</resources>

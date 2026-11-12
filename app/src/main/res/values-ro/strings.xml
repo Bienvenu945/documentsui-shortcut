@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fișiere</string>
+    <string name="no_file_manager">Managerul de fișiere al sistemului nu a fost găsit</string>
+</resources>

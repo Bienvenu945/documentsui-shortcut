@@ -1,0 +1,47 @@
+# Changelog
+
+## 1.1.0
+
+- Add long-press launcher shortcuts: Download, Documents, DCIM and Android/data.
+- Add a Quick Settings tile that opens the system Files app.
+- New original vector icon (gradient, folder and bolt) with Android 13+ themed icon; PNG icon assets removed.
+- Smaller release APK: resource and code shrinking enabled, no dependency metadata block.
+
+## 1.0.8
+
+- Reduce the Android themed icon artwork to match other launcher icons.
+- Require Android 8.0 or later and remove obsolete legacy launcher icons.
+
+## 1.0.7
+
+- Fix the Android themed icon by removing the overlapping shortcut badge.
+
+## 1.0.6
+
+- Restore correctly sized legacy launcher icons for Android 7.1 and earlier.
+
+## 1.0.5
+
+- Fix launcher icon rendering on Huawei EMUI/HarmonyOS devices.
+
+## 1.0.4
+
+- Add rounded legacy launcher icons for Huawei EMUI/HarmonyOS launchers that do not crop adaptive icons correctly.
+
+## 1.0.3
+
+- Add localized app titles and missing file manager messages.
+
+## 1.0.2
+
+- Add Android 13+ themed app icon support.
+
+## 1.0.1
+
+- Add F-Droid metadata icon and phone screenshot.
+
+## 1.0.0
+
+- Initial release.
+- Open Android system DocumentsUI / Files in browser mode.
+- Add DocumentsUI-based launcher icon with shortcut arrow badge.

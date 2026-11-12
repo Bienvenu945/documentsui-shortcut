@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">فایل‌ها</string>
+    <string name="no_file_manager">مدیر فایل سیستم پیدا نشد</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">파일</string>
+    <string name="no_file_manager">시스템 파일 관리자를 찾을 수 없습니다</string>
+</resources>

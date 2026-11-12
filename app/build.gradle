@@ -1,0 +1,30 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.documentsui.shortcut"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.documentsui.shortcut"
+        minSdk 26
+        targetSdk 36
+        versionCode 10
+        versionName "1.1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt")
+        }
+    }
+
+    // No extra signing blob in the APK (smaller, and reproducible-build friendly).
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
+    }
+}

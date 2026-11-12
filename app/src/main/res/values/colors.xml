@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Icon gradient (top-left to bottom-right). Change these two to restyle everything. -->
+    <color name="brand_start">#2AA7F5</color>
+    <color name="brand_end">#3D3DD8</color>
+</resources>
