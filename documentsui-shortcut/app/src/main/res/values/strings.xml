@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Files</string>
+    <string name="no_file_manager">No system file manager found</string>
+
+    <!-- Home screen. Languages without a translation fall back to English. -->
+    <string name="hub_tagline" tools:ignore="MissingTranslation">Direct access</string>
+    <string name="hub_open_title" tools:ignore="MissingTranslation">Open storage</string>
+    <string name="hub_open_sub" tools:ignore="MissingTranslation">Browse everything in the system Files app</string>
+    <string name="hub_quick_access" tools:ignore="MissingTranslation">Quick access</string>
+    <string name="hub_signature" tools:ignore="MissingTranslation">Designed by %1$s</string>
+
+    <!-- Your signature, shown on the home screen. -->
+    <string name="hub_author" translatable="false">Bienvenu</string>
+
+    <!-- Real folder names on the device, so they are intentionally not translated. -->
+    <string name="shortcut_download" translatable="false">Download</string>
+    <string name="shortcut_documents" translatable="false">Documents</string>
+    <string name="shortcut_dcim" translatable="false">DCIM</string>
+    <string name="shortcut_data" translatable="false">Android/data</string>
+</resources>

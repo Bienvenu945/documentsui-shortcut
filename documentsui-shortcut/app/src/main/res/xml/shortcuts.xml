@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="download"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_download"
+        android:shortcutShortLabel="@string/shortcut_download">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.documentsui.launcher.MainActivity"
+            android:targetPackage="com.documentsui.shortcut">
+            <extra
+                android:name="folder"
+                android:value="Download" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="documents"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_documents"
+        android:shortcutShortLabel="@string/shortcut_documents">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.documentsui.launcher.MainActivity"
+            android:targetPackage="com.documentsui.shortcut">
+            <extra
+                android:name="folder"
+                android:value="Documents" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="dcim"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_dcim"
+        android:shortcutShortLabel="@string/shortcut_dcim">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.documentsui.launcher.MainActivity"
+            android:targetPackage="com.documentsui.shortcut">
+            <extra
+                android:name="folder"
+                android:value="DCIM" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="data"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_data"
+        android:shortcutShortLabel="@string/shortcut_data">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.documentsui.launcher.MainActivity"
+            android:targetPackage="com.documentsui.shortcut">
+            <extra
+                android:name="folder"
+                android:value="Android/data" />
+        </intent>
+    </shortcut>
+
+</shortcuts>

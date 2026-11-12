@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Файли</string>
+    <string name="no_file_manager">Системний файловий менеджер не знайдено</string>
+</resources>

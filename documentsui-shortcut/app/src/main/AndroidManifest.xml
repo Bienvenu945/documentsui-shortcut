@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <queries>
+        <package android:name="com.google.android.documentsui" />
+        <package android:name="com.android.documentsui" />
+
+        <intent>
+            <action android:name="android.provider.action.BROWSE" />
+            <data android:mimeType="vnd.android.document/root" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:mimeType="vnd.android.document/root" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:mimeType="vnd.android.document/directory" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FilesShortcut">
+
+        <activity
+            android:name="com.documentsui.launcher.HomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.FilesHub">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+
+        <!-- Invisible router: opens the system Files app, then closes. Used by the home screen,
+             the launcher shortcuts and the Quick Settings tile. -->
+        <activity
+            android:name="com.documentsui.launcher.MainActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:theme="@style/Theme.FilesShortcut" />
+
+        <service
+            android:name="com.documentsui.launcher.FilesTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_tile"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+    </application>
+</manifest>

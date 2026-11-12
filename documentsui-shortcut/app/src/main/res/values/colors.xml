@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Icy green palette. Change these to restyle the icon, shortcuts and home screen. -->
+    <color name="bg_deep">#04141A</color>
+    <color name="bg_teal">#0B3B3F</color>
+    <color name="ice">#7CFFE0</color>
+    <color name="ice_soft">#D6FFF5</color>
+    <color name="ice_dim">#4FB9A5</color>
+</resources>

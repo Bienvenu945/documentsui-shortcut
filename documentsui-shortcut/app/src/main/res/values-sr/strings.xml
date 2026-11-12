@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Датотеке</string>
+    <string name="no_file_manager">Системски управљач датотекама није пронађен</string>
+</resources>

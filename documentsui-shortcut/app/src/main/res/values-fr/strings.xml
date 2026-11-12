@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fichiers</string>
+    <string name="no_file_manager">Gestionnaire de fichiers système introuvable</string>
+    <string name="hub_tagline">Accès direct</string>
+    <string name="hub_open_title">Ouvrir le stockage</string>
+    <string name="hub_open_sub">Tout parcourir dans l’app Fichiers du système</string>
+    <string name="hub_quick_access">Accès rapide</string>
+    <string name="hub_signature">Conçu par %1$s</string>
+</resources>
